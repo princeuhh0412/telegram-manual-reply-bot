@@ -1,3 +1,4 @@
+import os
 import logging
 from telegram import Update
 from telegram.ext import (
@@ -8,7 +9,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = "8810242954:AAFKIknw6UVq66ReXKi3Vb5eqSYuF_tWCc0"
+BOT_TOKEN = os.getenv("8810242954:AAGmlF9QAC7gtOdabIJGaiJCYmE5o5e2_H0")
 ADMIN_ID = 6017535013
 
 logging.basicConfig(
