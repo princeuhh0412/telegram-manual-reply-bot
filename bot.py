@@ -9,7 +9,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.getenv("8810242954:AAGmlF9QAC7gtOdabIJGaiJCYmE5o5e2_H0")
+BOT_TOKEN = os.("BOT_TOKEN")
 ADMIN_ID = 6017535013
 
 logging.basicConfig(
